@@ -40,7 +40,7 @@ export function LoadingScreen({ progress, isFinished }: LoadingScreenProps) {
         animate={{ opacity: 1, y: 0 }}
         className="text-center"
       >
-        <div className="text-xl font-bold text-[#6656DD] mb-2">Creator Economy</div>
+        <div className="text-xl font-bold text-[#6656DD] mb-2">Content That Pays</div>
         <div className="text-sm text-gray-400 font-medium tracking-widest uppercase">
           {Math.round(progress)}% Loaded
         </div>

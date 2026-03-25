@@ -157,7 +157,7 @@ export default function App() {
   const stats = [
     { value: "6", label: "Transformation Phases" },
     { value: "50+", label: "Video Framework" },
-    { value: "$300-1K", label: "Value Delivered" },
+    { value: "+$250-1K", label: "Value Delivered" },
     { value: "100%", label: "Actionable Content" }
   ];
 
@@ -555,11 +555,12 @@ export default function App() {
                   className="space-y-4 mb-10"
                 >
                   {[
+                    "100% Actionable Content",
                     "Complete 6-Phase Curriculum",
+                    "Expert Frameworks",
+                    "Interactive Quizzes",
                     "Hook Library & Script Templates",
                     "Content Planner & Strategy Tools",
-                    "Expert Frameworks",
-                    "Interactive Quizzes"
                   ].map((item, index) => (
                     <div key={index} className="flex items-center justify-center gap-3 text-lg">
                       <CheckCircle2 className="w-6 h-6 text-green-400" />
@@ -638,7 +639,7 @@ export default function App() {
               href="https://whop.com/make-content-that-gets-you-paid/content-that-pays/"
               target="_blank"
               rel="noopener noreferrer"
-              className="group px-12 py-5 bg-white text-[#6656DD] rounded-full font-bold text-xl flex items-center gap-3 mx-auto shadow-2xl shadow-black/20 hover:shadow-black/30 transition-shadow"
+              className="group px-12 py-5 bg-white text-[#6656DD] rounded-full font-bold text-xl flex items-center justify-center gap-3 mx-auto shadow-2xl shadow-black/20 hover:shadow-black/30 transition-shadow"
             >
               Get Instant Access
               <ArrowRight className="group-hover:translate-x-1 transition-transform" />
@@ -649,7 +650,7 @@ export default function App() {
         {/* Footer */}
         <footer className="py-12 px-6 border-t border-gray-200 bg-white">
           <div className="max-w-7xl mx-auto text-center text-gray-400">
-            <p>&copy; 2026 Creator Economy Curriculum. All rights reserved.</p>
+            <p>&copy; 2026 RiseInDigital Creator Economy Curriculum. All rights reserved.</p>
           </div>
         </footer>
       </motion.div>

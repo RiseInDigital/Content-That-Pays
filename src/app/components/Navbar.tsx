@@ -72,7 +72,7 @@ export function Navbar({ onNavClick }: NavbarProps) {
             transition={{ duration: 0.5 }}
             className="text-xl font-bold text-[#6656DD]"
           >
-            Make Content
+            RiseInDigital
           </motion.div>
 
           {/* Desktop Navigation */}
@@ -89,9 +89,8 @@ export function Navbar({ onNavClick }: NavbarProps) {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 * index }}
-                className={`relative text-sm font-medium transition-colors ${
-                  activeSection === item.id ? "text-[#6656DD]" : "text-gray-500 hover:text-gray-900"
-                }`}
+                className={`relative text-sm font-medium transition-colors ${activeSection === item.id ? "text-[#6656DD]" : "text-gray-500 hover:text-gray-900"
+                  }`}
               >
                 {item.label}
                 {activeSection === item.id && (
@@ -106,7 +105,7 @@ export function Navbar({ onNavClick }: NavbarProps) {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://whop.com/make-content-that-gets-you-paid"
+              href="https://whop.com/make-content-that-gets-you-paid/content-that-pays/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 bg-[#6656DD] text-white rounded-full font-semibold text-sm shadow-lg shadow-[#6656DD]/30 hover:shadow-[#6656DD]/50 transition-shadow"
@@ -141,11 +140,10 @@ export function Navbar({ onNavClick }: NavbarProps) {
               key={item.id}
               onClick={() => handleNavClick(item.id)}
               whileHover={{ x: 10 }}
-              className={`block w-full text-left py-3 px-4 rounded-lg transition-colors ${
-                activeSection === item.id
-                  ? "bg-[#6656DD]/10 text-[#6656DD] border border-[#6656DD]/20"
-                  : "text-gray-600 hover:text-gray-900 hover:bg-gray-50"
-              }`}
+              className={`block w-full text-left py-3 px-4 rounded-lg transition-colors ${activeSection === item.id
+                ? "bg-[#6656DD]/10 text-[#6656DD] border border-[#6656DD]/20"
+                : "text-gray-600 hover:text-gray-900 hover:bg-gray-50"
+                }`}
             >
               {item.label}
             </motion.button>
@@ -153,7 +151,7 @@ export function Navbar({ onNavClick }: NavbarProps) {
           <motion.a
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            href="https://whop.com/make-content-that-gets-you-paid"
+            href="https://whop.com/make-content-that-gets-you-paid/content-that-pays/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full py-3 px-6 bg-[#6656DD] text-white rounded-full font-semibold shadow-lg shadow-[#6656DD]/30 mt-6 text-center block"
