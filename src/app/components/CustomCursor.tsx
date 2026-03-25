@@ -60,12 +60,12 @@ export function CustomCursor() {
         }}
       >
         <img
-          src={isClicked ? "/src/Cursor/click.png" : "/src/Cursor/pointing.png"}
+          src={isClicked ? `${import.meta.env.BASE_URL}Cursor/click.png` : `${import.meta.env.BASE_URL}Cursor/pointing.png`}
           alt="Custom Cursor"
           className="w-full h-full object-contain filter drop-shadow-lg"
           onLoad={() => console.log("Cursor image loaded successfully")}
           onError={(e) => {
-            console.error("Cursor image failed to load, path: " + (isClicked ? "/src/Cursor/click.png" : "/src/Cursor/pointing.png"));
+            console.error("Cursor image failed to load, path: " + (isClicked ? "Cursor/click.png" : "Cursor/pointing.png"));
             (e.target as any).style.display = 'none';
           }}
         />

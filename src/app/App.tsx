@@ -469,10 +469,10 @@ export default function App() {
 
             <div className="grid md:grid-cols-2 gap-8">
               {[
-                { name: "MrBeast", expertise: "Viral Content Strategy", image: "/src/creators/MrBeast.jpg" },
-                { name: "Ali Abdaal", expertise: "Productivity & Systems", image: "/src/creators/Ali Abdaal.jpg" },
-                { name: "Alex Hormozi", expertise: "Business & Monetization", image: "/src/creators/Alex Hormozi.jpg" },
-                { name: "Jenny Hoyos", expertise: "Short-Form Content", image: "/src/creators/Jenny Hoyos.jpg" }
+                { name: "MrBeast", expertise: "Viral Content Strategy", image: `${import.meta.env.BASE_URL}creators/MrBeast.jpg` },
+                { name: "Ali Abdaal", expertise: "Productivity & Systems", image: `${import.meta.env.BASE_URL}creators/Ali Abdaal.jpg` },
+                { name: "Alex Hormozi", expertise: "Business & Monetization", image: `${import.meta.env.BASE_URL}creators/Alex Hormozi.jpg` },
+                { name: "Jenny Hoyos", expertise: "Short-Form Content", image: `${import.meta.env.BASE_URL}creators/Jenny Hoyos.jpg` }
               ].map((creator, index) => (
                 <motion.div
                   key={index}
