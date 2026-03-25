@@ -175,8 +175,7 @@ export default function App() {
         initial={{ opacity: 0 }}
         animate={{ opacity: isLoaded ? 1 : 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="min-h-screen bg-white text-gray-900 overflow-x-hidden scroll-smooth md:cursor-none selection:bg-[#6656DD]/20"
-        style={{ paddingTop: 'env(safe-area-inset-top)' }}
+        className="min-h-screen bg-white text-gray-900 overflow-x-hidden scroll-smooth md:cursor-none selection:bg-[#6656DD]/20 pt-[50px] md:pt-0"
       >
         <ThreeBackground onProgress={setLoadProgress} />
         <Navbar onNavClick={scrollToSection} />
