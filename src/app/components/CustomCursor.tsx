@@ -35,7 +35,7 @@ export function CustomCursor() {
     window.addEventListener("mousemove", handleMouseMove);
     window.addEventListener("mousedown", handleMouseDown);
     window.addEventListener("mouseup", handleMouseUp);
-    
+
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
       window.removeEventListener("mousedown", handleMouseDown);
@@ -54,19 +54,19 @@ export function CustomCursor() {
     >
       <div
         className="w-full h-full relative"
-        style={{ 
+        style={{
           transform: 'translate(-20%, -20%)',
           scale: isClicked ? 0.9 : 1,
           transition: 'transform 0.1s ease-out'
         }}
       >
         <img
-          src={isClicked ? `${import.meta.env.BASE_URL}Cursor/click.png` : `${import.meta.env.BASE_URL}Cursor/pointing.png`}
+          src={isClicked ? `${import.meta.env.BASE_URL}cursor/click.png` : `${import.meta.env.BASE_URL}cursor/pointing.png`}
           alt="Custom Cursor"
           className="w-full h-full object-contain filter drop-shadow-lg"
           onLoad={() => console.log("Cursor image loaded successfully")}
           onError={(e) => {
-            console.error("Cursor image failed to load, path: " + (isClicked ? "Cursor/click.png" : "Cursor/pointing.png"));
+            console.error("Cursor image failed to load, path: " + (isClicked ? "cursor/click.png" : "cursor/pointing.png"));
             (e.target as any).style.display = 'none';
           }}
         />
