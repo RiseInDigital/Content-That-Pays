@@ -1,0 +1,9 @@
+@import './tailwind.css';
+@import './fonts.css';
+@import './theme.css';
+
+@layer base {
+  * {
+    cursor: none !important;
+  }
+}
