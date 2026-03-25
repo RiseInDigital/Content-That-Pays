@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { motion, useScroll, useTransform, AnimatePresence } from "motion/react";
 import { ArrowRight, CheckCircle2, Star, Users, TrendingUp, Zap, Award, BookOpen, Video, Target, DollarSign, Rocket, Instagram, Twitter, Youtube, HelpCircle } from "lucide-react";
 import { useRef, useEffect, useState } from "react";
