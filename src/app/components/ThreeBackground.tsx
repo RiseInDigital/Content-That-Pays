@@ -179,8 +179,8 @@ export function ThreeBackground({ onProgress }: ThreeBackgroundProps) {
         <Suspense fallback={null}>
           {/* Phone in Intro */}
           <Model
-            objPath="/models/iphone-17-pro/iphone-17-pro.obj"
-            mtlPath="/models/iphone-17-pro/iphone-17-pro.mtl"
+            objPath="models/iphone-17-pro/iphone-17-pro.obj"
+            mtlPath="models/iphone-17-pro/iphone-17-pro.mtl"
             scale={2}
             position={[9, 1, -2]}
             rotation={[0.1, 2.2, -0.1]}
@@ -189,8 +189,8 @@ export function ThreeBackground({ onProgress }: ThreeBackgroundProps) {
 
           {/* Camera over the page */}
           <Model
-            objPath="/models/camera/camera_zorki_-_4.obj"
-            mtlPath="/models/camera/camera_zorki_-_4.mtl"
+            objPath="models/camera/camera_zorki_-_4.obj"
+            mtlPath="models/camera/camera_zorki_-_4.mtl"
             scale={0.04}
             position={[-13, -12, -3]}
             rotation={[-0.2, 0.6, 0.1]}
@@ -199,8 +199,8 @@ export function ThreeBackground({ onProgress }: ThreeBackgroundProps) {
 
           {/* Another Phone over the page */}
           <Model
-            objPath="/models/iphone-17-pro/iphone-17-pro.obj"
-            mtlPath="/models/iphone-17-pro/iphone-17-pro.mtl"
+            objPath="models/iphone-17-pro/iphone-17-pro.obj"
+            mtlPath="models/iphone-17-pro/iphone-17-pro.mtl"
             scale={2}
             position={[13, -28, -6]}
             rotation={[-0.2, 2, 0.2]}
