@@ -1,7 +1,4 @@
-
-  # Create Course Landing Page
-
-  This is a code bundle for Create Course Landing Page. The original project is available at https://www.figma.com/design/BD5XWqGVbX12BVThkknePK/Create-Course-Landing-Page.
+This is a code bundle for Content That Pays.
 
   ## Running the code
 
